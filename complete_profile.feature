@@ -33,3 +33,4 @@ Feature: complete_profile
         When: The user process the Cancel button
         Then: The user is returned to the Dashboard screen 
         And: The profile is left unchanged.
+        
