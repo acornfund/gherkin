@@ -1,4 +1,4 @@
-Feature: complete_profile
+Feature: profile
     As a user
     I want to edit and complete my profile 
     So the information can be used in other parts of the system.
@@ -25,7 +25,7 @@ Feature: complete_profile
         Given: The users profile information has change
         When: The user presses the Edit button
         Then: The user changes the information
-        And: The user presses the Save button to store the changes.
+        And: The user clicks the Save button to store the changes.
 
     Scenario: User cancels editing profile
 
