@@ -3,9 +3,11 @@ Feature: profile
     I want to edit and complete my profile 
     So the information can be used in other parts of the system.
 
+    Background: Valid credentials
+        Given: the user has valid credentials
+
     Scenario: Complete an initial profile 
 
-        Given: The user has valid credentials
         When: The user logs in for the first time
         Then: The system displays the profile page
         And: The user completes the information (name, address, and contact information)
@@ -13,8 +15,7 @@ Feature: profile
 
     Scenario: Assocate completes initial profile
 
-        Given: The associate has valid credentials
-        When: The user logs in for the first time
+        When: The associate logs in for the first time
         Then: The system displays the profile page
         And: The user completes the information
         And: The user presses Save button to store the profile
