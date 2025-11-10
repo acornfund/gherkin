@@ -1,4 +1,4 @@
-Feature: application review
+Feature: application_review
 
     As a Chair
     I need to receive alerts when applications are submitted
@@ -23,3 +23,8 @@ Feature: application review
         Then: an alert is sent to the associate indicating the application needs work
         And: an alert is sent to the associate's mentor to meet with the associate
         And: the status of the application is set to Draft.
+
+    Scenario: application Withdrawn
+        Given: I received an alert that the associate withdrew an application
+        Then: I review the alert
+        And: confirm that I have read the alert.

@@ -1,4 +1,4 @@
-Feature: payment forms
+Feature: payment_forms
 
     As an associate
     I need to submit a payment form

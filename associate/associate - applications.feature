@@ -19,9 +19,9 @@ Feature: applications
 
     Scenario: submit an application
         Given: the associate has completed the fields on the form
-        And: the associate wishes to submit the appliation to the Mentor
+        And: the associate wishes to submit the appliation 
         When: the associate clicks the Submit button
-        Then: an alert is sent to the associate's mentor
+        Then: an alert is sent to the chair
         And: the status of the application is set to Submitted
         And: the associate can nnot update the application until the status is change.
 
