@@ -16,7 +16,7 @@ Feature: payment_review
         Then: I reject the form 
         And: an alert is sent to the associate and mentor.  
 
-    Scenario: payment form Withdrawn
+    Scenario: payment form withdrawn
         Given: I receive an alert that a scholarship payment form has been Withdrawn
         When: I review the alert 
         And: confirm that 
